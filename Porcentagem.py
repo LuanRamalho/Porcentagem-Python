@@ -7,7 +7,7 @@ class PerCent:
             R = num + (num * P) / 100
 
             print("")
-            print("Resultado: %.2f" % R)
+            print("Resultado: %.0f" % R)
 
             print("")
             print("")
@@ -38,7 +38,7 @@ class PerCent:
             R = (num * P) / 100
 
             print("")
-            print("Resultado: %.2f" % R)
+            print("Resultado: %.0f" % R)
 
             print("")
             print("")
@@ -59,4 +59,3 @@ if (op==3):
 
 
 input()
-
